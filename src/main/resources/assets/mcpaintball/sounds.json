@@ -1,0 +1,14 @@
+{
+  "single": {
+    "subtitle": "subtitle.mcpaintball.single",
+    "sounds": [
+      "mcpaintball:single"
+    ]
+  },
+  "ding": {
+    "subtitle": "subtitle.mcpaintball.ding",
+    "sounds": [
+      "mcpaintball:ding"
+    ]
+  }
+}

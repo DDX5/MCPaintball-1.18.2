@@ -1,3 +1,18 @@
 {
-  "item.mcpaintball.weapon.pistol.red_pistol": "Red Team Pistol"
+  "Comment": "Items",
+  "item.mcpaintball.weapon.pistol.red_pistol": "Red Team Pistol",
+  "item.mcpaintball.weapon.pistol.blue_pistol": "Blue Team Pistol",
+
+  "Comment": "Entities",
+  "entity.mcpaintball.red_paintball": "Red Paintball",
+  "entity.mcpaintball.blue_paintball": "Blue Paintball",
+
+  "Comment": "Blocks",
+
+
+  "Comment": "CreativeTabs",
+
+  "Comment": "Subtitles",
+  "subtitle.mcpaintball.single": "Paintball Fired",
+  "subtitle.mcpaintball.ding": "Shot Hit"
 }

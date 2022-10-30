@@ -7,6 +7,7 @@
 	},
 	"elements": [
 		{
+			"name": "Stock",
 			"from": [7, 0, 13],
 			"to": [9, 4, 15],
 			"faces": {
@@ -19,6 +20,7 @@
 			}
 		},
 		{
+			"name": "Barrel",
 			"from": [7, 4, 3],
 			"to": [9, 6, 15],
 			"faces": {
@@ -31,6 +33,7 @@
 			}
 		},
 		{
+			"name": "Trigger",
 			"from": [7, 2, 7],
 			"to": [9, 4, 9],
 			"faces": {
@@ -43,6 +46,7 @@
 			}
 		},
 		{
+			"name": "Marker",
 			"from": [7, 6, 8],
 			"to": [9, 7, 9],
 			"faces": {
