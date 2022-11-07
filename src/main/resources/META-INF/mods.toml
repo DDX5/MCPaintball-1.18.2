@@ -1,18 +1,18 @@
-modLoader="javafml" #mandatory
-loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+modLoader="javafml"
+loaderVersion="[40,)"
 license="MIT"
-[[mods]] #mandatory
-modId="mcpaintball" #mandatory
-version="1.0.0" #mandatory
-displayName="MC Paintball" #mandatory
-logoFile="examplemod.png" #optional
-credits="" #optional
-authors="Multicoder" #optional
-description=''''''
-[[dependencies.mcpaintball]] #optional
-    modId="forge" #mandatory
-    mandatory=true #mandatory
-    versionRange="[40,)" #mandatory
+[[mods]]
+modId="mcpaintball"
+version="1.0.0"
+displayName="MC Paintball"
+logoFile="examplemod.png"
+credits=""
+authors="Multicoder"
+description='''Minecraft paintball mod adds a vanilla way to paintball and have fun with friends.'''
+[[dependencies.mcpaintball]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.mcpaintball]]

@@ -14,6 +14,7 @@ public class soundinit
     public static final RegistryObject<SoundEvent> SINGLE_SHOT = RegSound("single");
 
     public static final RegistryObject<SoundEvent> DING = RegSound("ding");
+    public static final RegistryObject<SoundEvent> SPLAT = RegSound("splat");
 
     public static RegistryObject<SoundEvent> RegSound(String name)
     {

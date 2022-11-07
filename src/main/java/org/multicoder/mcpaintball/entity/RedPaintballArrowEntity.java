@@ -11,6 +11,7 @@ import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.projectile.Arrow;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
 import org.multicoder.mcpaintball.init.entityinit;
 import org.multicoder.mcpaintball.init.soundinit;
@@ -24,6 +25,10 @@ public class RedPaintballArrowEntity extends AbstractArrow
 
     public RedPaintballArrowEntity(Level p_36866_, LivingEntity p_36867_) {super((EntityType<? extends AbstractArrow>) entityinit.RED_PAINTBALL.get(), p_36867_,p_36866_);}
 
+    @Override
+    protected SoundEvent getDefaultHitGroundSoundEvent() {
+        return soundinit.SPLAT.get();
+    }
 
     @Override
     protected ItemStack getPickupItem()
@@ -34,6 +39,15 @@ public class RedPaintballArrowEntity extends AbstractArrow
     @Override
     protected void onHitEntity(EntityHitResult p_36757_)
     {
-        if (p_36757_.getEntity() instanceof Cow) {getOwner().playSound(soundinit.DING.get(),1.0f,1.0f);}
+        if(level.isClientSide)
+        {
+            if (p_36757_.getEntity() instanceof Cow)
+            {
+                Player player = (Player) getOwner();
+                player.playSound(soundinit.DING.get(),1.0f,1.0f);
+            }
+            this.discard();
+        }
     }
+
 }

@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mcpaintball:item/plates/silver",
-		"2": "mcpaintball:item/plates/blue",
+		"4": "mcpaintball:item/plates/green",
 		"particle": "mcpaintball:item/plates/silver"
 	},
 	"elements": [
@@ -21,7 +21,7 @@
 		},
 		{
 			"name": "Barrel",
-			"from": [7, 4, 2.5],
+			"from": [7, 4, -4.5],
 			"to": [9, 6, 13],
 			"faces": {
 				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
@@ -37,17 +37,17 @@
 			"from": [7, 4, 13],
 			"to": [9, 6, 15],
 			"faces": {
-				"north": {"uv": [0, 0, 2, 2], "texture": "#2"},
-				"east": {"uv": [0, 0, 2, 2], "texture": "#2"},
-				"south": {"uv": [0, 0, 2, 2], "texture": "#2"},
-				"west": {"uv": [0, 0, 2, 2], "texture": "#2"},
-				"up": {"uv": [0, 0, 2, 2], "texture": "#2"},
-				"down": {"uv": [0, 0, 2, 2], "texture": "#2"}
+				"north": {"uv": [0, 0, 2, 2], "texture": "#4"},
+				"east": {"uv": [0, 0, 2, 2], "texture": "#4"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#4"},
+				"west": {"uv": [0, 0, 2, 2], "texture": "#4"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#4"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#4"}
 			}
 		},
 		{
-			"from": [7, 6, 2.5],
-			"to": [7.5, 6.5, 3],
+			"from": [7, 6, -4.5],
+			"to": [7.5, 6.5, -4],
 			"faces": {
 				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#0"},
 				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#0"},
@@ -58,8 +58,8 @@
 			}
 		},
 		{
-			"from": [8.5, 6, 2.5],
-			"to": [9, 6.5, 3],
+			"from": [8.5, 6, -4.5],
+			"to": [9, 6.5, -4],
 			"faces": {
 				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#0"},
 				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#0"},
@@ -67,6 +67,18 @@
 				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#0"},
 				"up": {"uv": [0, 0, 0.5, 0.5], "texture": "#0"},
 				"down": {"uv": [0, 0, 0.5, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 3, -1],
+			"to": [9, 4, 7],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 1], "texture": "#0"},
+				"east": {"uv": [0, 0, 8, 1], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 1], "texture": "#0"},
+				"west": {"uv": [0, 0, 8, 1], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 8], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 8], "texture": "#0"}
 			}
 		}
 	],
@@ -85,14 +97,15 @@
 		},
 		"gui": {
 			"rotation": [180, -90, 180],
-			"translation": [1, 3.5, 0]
+			"translation": [-2, 1.5, 0],
+			"scale": [0.75, 0.75, 0.75]
 		},
 		"head": {
 			"translation": [0, 12.5, -0.75]
 		},
 		"fixed": {
 			"rotation": [-180, 90, 180],
-			"translation": [-1, 4, 0]
+			"translation": [2.75, 4, 0]
 		}
 	}
 }
