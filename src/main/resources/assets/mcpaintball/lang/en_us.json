@@ -8,6 +8,10 @@
   "item.mcpaintball.weapon.shotgun.blue_shotgun": "Green Team Shotgun",
   "item.mcpaintball.weapon.shotgun.red_shotgun": "Green Team Shotgun",
 
+  "item.mcpaintball.weapon.rifle.green_rifle": "Green Team Rifle",
+  "item.mcpaintball.weapon.rifle.blue_rifle": "Blue Team Rifle",
+  "item.mcpaintball.weapon.rifle.red_rifle": "Red Team Rifle",
+
   "Comment": "Entities",
   "entity.mcpaintball.red_paintball": "Red Paintball",
   "entity.mcpaintball.blue_paintball": "Blue Paintball",

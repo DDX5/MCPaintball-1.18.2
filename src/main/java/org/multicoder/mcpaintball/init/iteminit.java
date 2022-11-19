@@ -18,4 +18,8 @@ public class iteminit
     public static final RegistryObject<Item> RED_SHOTGUN = ITEMS.register("weapon/shotgun/red_shotgun", RedShotgunItem::new);
     public static final RegistryObject<Item> BLUE_SHOTGUN = ITEMS.register("weapon/shotgun/blue_shotgun", BlueShotgunItem::new);
     public static final RegistryObject<Item> GREEN_SHOTGUN = ITEMS.register("weapon/shotgun/green_shotgun", GreenShotgunItem::new);
+
+    public static final RegistryObject<Item> RED_RIFLE = ITEMS.register("weapon/rifle/red_rifle", RedRifleItem::new);
+    public static final RegistryObject<Item> BLUE_RIFLE = ITEMS.register("weapon/rifle/blue_rifle", BlueRifleItem::new);
+    public static final RegistryObject<Item> GREEN_RIFLE = ITEMS.register("weapon/rifle/green_rifle", GreenRifleItem::new);
 }
